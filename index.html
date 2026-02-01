@@ -246,6 +246,34 @@
                 return `Today's date is ${now.toLocaleDateString()}`;
             } else if (input.includes("weather")) {
                 return "I can't check real-time weather, but I hope it's nice where you are! ☀️";
+                    } else if (input.includes("who created you") || input.includes("who made you") || input.includes("creator")) {
+        return "I was created by Vinayaka-29 as a simple JavaScript chatbot project! 👨‍💻";
+    } else if (input.includes("what can you do") || input.includes("your capabilities") || input.includes("what do you do")) {
+        return "I can chat with you, tell jokes, show the time and date, and answer basic questions. I'm here to help! 🤖";
+    } else if (input.includes("tell me about yourself") || input.includes("about you") || input.includes("who you are")) {
+        return "I'm an AI chatbot built with JavaScript! I love chatting and learning from our conversations. What would you like to know? 😊";
+    } else if (input.includes("how old are you") || input.includes("your age") || input.includes("age")) {
+        return "I was just born recently! Every conversation makes me smarter though. 🎂";
+    } else if (input.includes("where are you from") || input.includes("location") || input.includes("where do you live")) {
+        return "I live in the cloud! ☁️ I'm accessible from anywhere with an internet connection.";
+    } else if (input.includes("do you have feelings") || input.includes("can you feel") || input.includes("emotions")) {
+        return "I don't have feelings like humans do, but I'm programmed to be friendly and helpful! 💙";
+    } else if (input.includes("meaning of life") || input.includes("purpose of life")) {
+        return "That's a deep question! Some say it's 42, but I think it's about finding joy and helping others. What do you think? 🤔";
+    } else if (input.includes("can you help") || input.includes("need help") || input.includes("assist me")) {
+        return "Of course! I'm here to help. What do you need assistance with? 🙋‍♂️";
+    } else if (input.includes("good morning")) {
+        return "Good morning! ☀️ Hope you have a wonderful day ahead!";
+    } else if (input.includes("good night") || input.includes("goodnight")) {
+        return "Good night! 🌙 Sleep well and sweet dreams!";
+    } else if (input.includes("how are you doing") || input.includes("how's it going")) {
+        return "I'm doing great, thanks for asking! How about you? 😊";
+    } else if (input.includes("what is your favorite") || input.includes("do you like")) {
+        return "I like helping people and having good conversations! What about you? 💬";
+    } else if (input.includes("sorry") || input.includes("apology")) {
+        return "No worries at all! We're all good here. 😊";
+    } else if (input.includes("cool") || input.includes("awesome") || input.includes("great")) {
+        return "Thanks! I'm glad you think so! 😄";
             } else {
                 return "I'm not sure I understand. Can you try rephrasing that?";
             }
