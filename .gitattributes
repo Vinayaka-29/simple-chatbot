@@ -1,0 +1,7 @@
+# Linguist language overrides for JavaScript project
+*.js linguist-detectable=true
+*.html linguist-language=JavaScript
+*.md linguist-documentation
+
+# Mark JavaScript as the primary language
+*.js linguist-language=JavaScript
